@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RO-gokart", "RO-gokart.csproj", "{7D0FA8A4-694C-44E7-82B4-9E9B5FF371D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D0FA8A4-694C-44E7-82B4-9E9B5FF371D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0FA8A4-694C-44E7-82B4-9E9B5FF371D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0FA8A4-694C-44E7-82B4-9E9B5FF371D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0FA8A4-694C-44E7-82B4-9E9B5FF371D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE26D89-A430-45FD-80EC-138B6D18B4DF}
+	EndGlobalSection
+EndGlobal
