@@ -54,7 +54,7 @@ class Program
             string[] darabok2 = tartalom2.Split(',');
             foreach (string s in darabok2)
             {
-                string n = s.Trim().Trim('\'');//hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                string n = s.Trim().Trim('\'');
                 if (n.Length > 0 && !vezeteknevek.Contains(n)) vezeteknevek.Add(n);
             }
         }
