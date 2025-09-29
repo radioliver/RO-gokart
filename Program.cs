@@ -25,13 +25,12 @@ class Program
         Console.OutputEncoding = Encoding.UTF8;
 
         string palyaNev = "Mario Kart";
-        string palyaCim = "1023 Budapest, Gokart utca 7.";
+        string palyaCim = "6969 Kukutyin, Rákos utca 7.";
         string palyaTelefon = "+36-30-555-0123";
         string palyaWeb = "mk-gokart.hu";
 
         Console.WriteLine("====================================");
         Console.WriteLine("Projekt: Gokart időpontfoglaló");
-        Console.WriteLine("Monogram: OR");
         Console.WriteLine("Dátum: " + DateTime.Today.ToString("yyyy-MM-dd"));
         Console.WriteLine("Pálya: " + palyaNev + " | " + palyaCim);
         Console.WriteLine("Telefon: " + palyaTelefon + " | Web: " + palyaWeb);
@@ -54,7 +53,7 @@ class Program
             string[] darabok2 = tartalom2.Split(',');
             foreach (string s in darabok2)
             {
-                string n = s.Trim().Trim('\'');//hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                string n = s.Trim().Trim('\'');
                 if (n.Length > 0 && !vezeteknevek.Contains(n)) vezeteknevek.Add(n);
             }
         }
@@ -174,7 +173,7 @@ class Program
     {
         Console.WriteLine("\n Időpontok táblázata  ");
         DateTime ma = DateTime.Today;
-        DateTime harminc = ma.AddDays(30);
+        DateTime harminc = new DateTime(ma.Year, ma.Month, DateTime.DaysInMonth(ma.Year, ma.Month));
 
         Console.Write("Dátum      ");
         for (int ora = 8; ora < 19; ora++)
